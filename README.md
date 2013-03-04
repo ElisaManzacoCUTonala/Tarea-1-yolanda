@@ -1,6 +1,7 @@
 Tarea-1-yolanda
 ===============
 
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -49,3 +50,28 @@ namespace ConsoleApplication1
             persona.imprimenombre();
             persona.nombre = Console.ReadLine();
            
+            persona.imprimetelefono();
+            persona.telefono = Console.ReadLine();
+            
+            persona.imprimedomicilio();
+            persona.domicilio = Console.ReadLine();
+           
+            persona.imprimefacebook();
+            persona.facebook = Console.ReadLine();
+            Console.Clear();
+            
+            Console.WriteLine("NOMBRE: " + persona.nombre);
+            Console.WriteLine("TELEFONO: " + persona.telefono);
+            Console.WriteLine("DOMICILIO: " + persona.domicilio);
+            Console.WriteLine("FACEBOOK: " + persona.facebook);
+            
+            Console.ReadLine();
+
+
+
+
+
+
+        }
+    }
+}
